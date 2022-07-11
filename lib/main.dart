@@ -1,5 +1,6 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_base/connectivity/connectivity.dart';
 import 'package:flutter_base/easy_localization/localization_view.dart';
 import 'package:flutter_base/pages/option_view.dart';
 import 'package:flutter_base/theme/theme_provider.dart';
@@ -39,7 +40,7 @@ class MyApp extends StatelessWidget {
       darkTheme: ThemeData.dark(),
       themeMode: context.watch<ThemeProvider>().themeMode,
       title: 'Material App',
-      home: OptionView(),
+      home: ConnectivityPage(),
     );
   }
 }

@@ -43,6 +43,8 @@ dependencies:
 
   #cache
   shared_preferences: ^2.0.15
+  
+  connectivity_plus: ^2.3.5
 
 dev_dependencies:
   flutter_test:
